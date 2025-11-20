@@ -11,7 +11,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI1();
 }
 
 //app.UseHttpsRedirection();
